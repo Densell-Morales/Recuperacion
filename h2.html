@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperacion</title>
+  </head>
+
+   }
+   </style>
+
+   <div class="hd"></div>
+ 
+  <body>
+    <form action="" class="formulario">
+      <h1 class="formulariotiutlo">Distribuidora Hernandez</h1>
+    </div>
+
+   
+      
+      <di>
+        <form action=""> 
+            <table border="1" align="center"> 
+                <tr>
+                    <td>Ingrese el nombre del empleado
+                        <input type="text" name="Name_Complete" id="Name_Complete">
+                    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>cantidad de horas extra: 
+                        <input type="number" name="a_001" id="a_001"> 
+                    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Monto de descuento: 
+                        <input type="number" name="a_002" id="a_002"> 
+                    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="button" value="seleccionar" onclick="Nota_FINAL()"> 
+                
+                    </td>
+                </tr>
+            </table>
+        </form>
+    
+        <script>
+           
+             function Nota_FINAL() { 
+    
+    
+                var nombre = (document.getElementById('Name_Complete').value);
+                var Nota_001 = parseInt(document.getElementById('a_001').value); 
+                var Nota_002 = parseInt(document.getElementById('a_002').value); 
+               
+                var hrz =parseInt(document.getElementById('a_001').value);
+                var hrzt = (hrz*15.75);
+                var result_Nota01 = (hrzt - Nota_002 + 250+4500) ; 
+                var nom_01 = nombre
+    
+                alert (nombre) 
+                alert ('Su salario liquido es de Q: ' +result_Nota01); 
+    
+            
+                }
+            
+        </script>
+</html>
