@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head >
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto</title>
+    <link rel="stylesheet" href="Estilo.css">
+    <link rel="shortcut icon" href="pack.jpg">
+  </head>
+
+   }
+   </style>
+
+   <div class="hd"></div>
+ 
+  <body>
+    <form action="" class="formulario">
+      <h1 class="formulariotiutlo">Distribuidora Hernandez</h1>
+    </div>
+
+   
+      
+      <di>
+        <form action=""> 
+            <table border="1" align="center"> <!-- Aligning and centering the frame -->
+                <tr>
+                    <td>Ingrese el nombre del empleado <!-- Insert name  -->
+                        <input type="text" name="Name_Complete" id="Name_Complete"> <!-- Identifying frame one -->
+                    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Ingrese Nota 1: <!-- Insert note 1 -->
+                        <input type="number" name="a_001" id="a_001"> <!-- Identifying note one -->
+                    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>Ingrese Nota 2: <!-- Insert note 2 -->
+                        <input type="number" name="a_002" id="a_002"> <!-- Identifying note two -->
+                    
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td>Ingrese Nota 3: <!-- Insert note 3 -->
+                        <input type="number" name="a_001" id="a_003"> <!-- Identifying note 3 -->
+                    
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td>
+                        <input type="button" value="Promedio_FINAL" onclick="Nota_FINAL()"> <!-- Identifying the button box -->
+                
+                    </td>
+                </tr>
+            </table>
+        </form>
+    
+        <script>
+           
+             function Nota_FINAL() { //Function to operate in this program
+    
+    
+                var nombre = (document.getElementById('Name_Complete').value); //Element from an indicator with the name of the variables 4.
+                var Nota_001 = parseInt(document.getElementById('a_001').value); //Element from an indicator with the name of the variables.
+                var Nota_002 = parseInt(document.getElementById('a_002').value); //Element from an indicator with the name of the variables 2.
+                var Nota_003 = parseInt(document.getElementById('a_003').value); //Element from an indicator with the name of the variables 3.
+                
+                var result_Nota01 = (Nota_001 + Nota_002 + Nota_003 / 3) ; //Operations to be performed to perfrom the operation.
+                var nom_01 = nombre
+    
+                alert (nombre) //Express the name.
+                alert ('Su promedio final es de: ' +result_Nota01); //Express the result.
+    
+            
+                }
+            
+        </script>
+</html>
