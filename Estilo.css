@@ -1,13 +1,12 @@
 body{
 background-color: rgba(117, 207, 243, 0.794);
 text-align: center;
-}
+height: auto;
+width: 400px;
+border: 1px black;
+padding: 15px;
+margin-left: 300px;
+box-shadow: 5px 5px 5px 5px rgb(31, 31, 31);
 
-.cuad {
-    height: 450px;
-    width: 400px;
-    border: 1px black;
-    margin-left: 300px;
-    box-shadow: 5px 5px 5px 5px rgb(31, 31, 31);
 
 }
